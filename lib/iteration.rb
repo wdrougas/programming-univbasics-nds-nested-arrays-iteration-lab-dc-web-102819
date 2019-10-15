@@ -1,9 +1,9 @@
 def join_ingredients(src)
   new_array = []
   i = 0
-  while i < src.length do 
+  # while i < src.length do 
     
-  end
+  # end
 end
 
 def find_greater_pair(src)
