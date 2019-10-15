@@ -9,10 +9,6 @@ def join_ingredients(src)
 end
 
 def find_greater_pair(src)
-  # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
-  # Produce a new Array that contains the larger number of each of the pairs
-  # that are in the inner Arrays
-  
   new_array = []
   i = 0
   while i < src.length do
@@ -30,4 +26,9 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+  
+  new_array = []
+  i = 0
+  while i < src.length do
+    
 end
