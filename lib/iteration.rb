@@ -31,5 +31,6 @@ def total_even_pairs(src)
   i = 0
   while i < src.length do
     if (src[i][0] % 2 == 0) && (src[i][1] % 2 == 1)
-      new_array += src[i][0]
+      new_array += (src[i][0] + src[i][1])
+      
 end
